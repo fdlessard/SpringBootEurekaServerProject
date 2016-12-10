@@ -1,0 +1,9 @@
+# This file is used to push your web application to cloud foundry.
+---
+applications:
+- name: eureka-server
+  path: target/EurekaServer-0.0.1-SNAPSHOT.jar
+  domain: cfapps.us10.hana.ondemand.com
+  host: eureka-server
+  instances: 1
+  memory: 512M

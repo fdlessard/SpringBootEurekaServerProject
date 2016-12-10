@@ -5,5 +5,12 @@ eureka:
   client:
     registerWithEureka: false
     fetchRegistry: false
-    server:
-      waitTimeInMsWhenSyncEmpty: 0
+  server:
+    waitTimeInMsWhenSyncEmpty: 0
+
+security:
+  basic:
+    enabled: true
+  user:
+    name: eureka
+    password: changeme

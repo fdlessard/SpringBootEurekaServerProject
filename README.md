@@ -1,1 +1,1 @@
-# SpringBootEurekaServiceProject
+# SpringBootEurekaServerProject

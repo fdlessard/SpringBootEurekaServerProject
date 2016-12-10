@@ -4,12 +4,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>io.fdlessard.codebites</groupId>
-	<artifactId>SpringBootEurekaService</artifactId>
+	<artifactId>EurekaServer</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>eureka</name>
-	<description>Spring Boot Eureka Service</description>
+	<name>eureka-server</name>
+	<description>Spring Boot Eureka Server</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -26,7 +26,10 @@
 
 
 	<dependencies>
-
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
